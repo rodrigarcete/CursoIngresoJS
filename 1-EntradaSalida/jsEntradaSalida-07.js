@@ -5,16 +5,56 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	alert("ok");	
+	let numUnoText;
+	let numDosText;
+	let numUno;
+	let numDos;
+	let mensaje;
+
+	numUnoText	= document.getElementById("txtIdNumeroUno").value
+	numDosText	= document.getElementById("txtIdNumeroDos").value
+	
+	numUno	= parseInt (numUnoText)
+	numDos = parseInt (numDosText)
+	mensaje = "La suma es " + (numUno + numDos)
+	
+	alert(mensaje);	
 }
 
 function restar()
 {
+	let numUnoText;
+	let numDosText;
+	let numUno;
+	let numDos;
+	let mensaje;
+
+	numUnoText	= document.getElementById("txtIdNumeroUno").value
+	numDosText	= document.getElementById("txtIdNumeroDos").value
+	
+	numUno	= parseInt (numUnoText)
+	numDos = parseInt (numDosText)
+	mensaje = "La resta es " + (numUno - numDos)
+
+	alert(mensaje)
 	
 }
 
 function multiplicar()
-{ 
+{ let numUnoText;
+	let numDosText;
+	let numUno;
+	let numDos;
+	let mensaje;
+
+	numUnoText	= document.getElementById("txtIdNumeroUno").value
+	numDosText	= document.getElementById("txtIdNumeroDos").value
+	
+	numUno	= parseInt (numUnoText)
+	numDos = parseInt (numDosText)
+	mensaje = "La multiplicacion es " + (numUno * numDos)
+	
+	alert(mensaje)
 	
 }
 
