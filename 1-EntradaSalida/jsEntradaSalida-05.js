@@ -5,16 +5,15 @@ function mostrar()
 {
 	let	nombreIngresado;
 	let edad
-	let mensaje1;
-	let mensaje2;
+	let mensaje;
 
 	nombreIngresado = document.getElementById("txtIdNombre").value
 	edad = document.getElementById("txtIdEdad").value
 
-	mensaje1 = "Usted se llama "
-	mensaje2 = " Y tiene "
+	mensaje = "Usted se llama " + nombreIngresado + " Y tiene "	+	edad
+	
 
 
-	alert(mensaje1 + nombreIngresado + mensaje2 + edad);
+	alert(mensaje);
 }
 
