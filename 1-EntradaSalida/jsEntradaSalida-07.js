@@ -41,7 +41,8 @@ function restar()
 }
 
 function multiplicar()
-{ let numUnoText;
+{ 	
+	let numUnoText;
 	let numDosText;
 	let numUno;
 	let numDos;
@@ -60,6 +61,20 @@ function multiplicar()
 
 function dividir()
 {
+	let numUnoText;
+	let numDosText;
+	let numUno;
+	let numDos;
+	let mensaje;
+
+	numUnoText	= document.getElementById("txtIdNumeroUno").value
+	numDosText	= document.getElementById("txtIdNumeroDos").value
+	
+	numUno	= parseInt (numUnoText)
+	numDos = parseInt (numDosText)
+	mensaje = "La Division es " + (numUno / numDos)
+	
+	alert(mensaje)
 	
 }
 
