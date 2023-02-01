@@ -5,10 +5,13 @@ function mostrar()
 {
 	let nombreIngresado;
 	let mensaje;
-	nombreIngresado=document.getElementById("txtIdNombre").value;
-mensaje = " su nombre es "
-	alert(mensaje + nombreIngresado);
 
-}
+	nombreIngresado=document.getElementById("txtIdNombre").value;
+	mensaje = " su nombre es " + nombreIngresado
+
+
+	alert(mensaje );
+
+}		
 
 
