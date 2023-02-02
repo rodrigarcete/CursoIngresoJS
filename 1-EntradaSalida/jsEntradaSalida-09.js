@@ -8,11 +8,13 @@ function mostrarAumento()
 
 	let sueldo;
 	let nuevoSueldo;
-	let aumento
+	let aumento;
+	let porcentaje;
+	porcentaje = 10
 
 	sueldo =parseInt(document.getElementById("txtIdSueldo").value);
 	
-	aumento = sueldo * 10 / 100;
+	aumento = sueldo * porcentaje  / 100;
 	nuevoSueldo = sueldo + aumento
 
 	document.getElementById("txtIdResultado").value = nuevoSueldo
