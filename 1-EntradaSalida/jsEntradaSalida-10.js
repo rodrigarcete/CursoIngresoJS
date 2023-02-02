@@ -7,12 +7,15 @@ function mostrarAumento()
 {
 	let importe;
 	let importeFinal;
-	let descuento
+	let descuento;
+	let porcentaje;
+	
+	porcentaje = -25
 
 	importe = parseInt(document.getElementById("txtIdImporte").value);
 	
-	descuento = importe * 25 / 100;
-	importeFinal = importe - descuento;
+	descuento = importe * porcentaje / 100;
+	importeFinal = importe + descuento;
 
 	document.getElementById("txtIdResultado").value = importeFinal
 	
