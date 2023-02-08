@@ -1,8 +1,13 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
-	
+	let edad;
+	let estadoCivil;
+	let mensaje
+
+	edad = document.getElementById("txtIdEdad").value; 
+
+	edad = parseInt(edad);
+
 
 
 }//FIN DE LA FUNCIÓN
