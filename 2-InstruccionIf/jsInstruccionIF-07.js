@@ -14,7 +14,7 @@ mostrar el siguiente mensaje: 'Es muy pequeño para NO ser soltero.' */
 
 	estadoCivil = document.getElementById("estadoCivil").value;
 
-	if(edad < 18 && estadoCivil != "Soltero");
+	if(edad < 18 && estadoCivil != "Soltero")
 	{ 
 		mensaje = "Es muy pequeño para NO ser soltero ";
 		alert(mensaje);
