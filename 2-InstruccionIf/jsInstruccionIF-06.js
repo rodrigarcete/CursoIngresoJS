@@ -5,22 +5,22 @@ function mostrar()
 
 	edad = parseInt (document.getElementById("txtIdEdad").value); 
 
-	if (edad  >= 18)
+	if (edad  >= 18);
 	{
-		mensaje = "Es mayor de edad "
+		mensaje = "Es mayor de edad ";
 
-	}else if (edad  >= 13  ) 
+	}else if (edad  >= 13  );
 	{
 
-		mensaje= "Es es un adolecente"
+		mensaje= "Es es un adolecente";
 
 	}else
 	{
 
-		mensaje= "es un niño"
+		mensaje= "es un niño";
 
 	}	
-		alert(mensaje)
+		alert(mensaje);
 
 
 }//FIN DE LA FUNCIÓN
