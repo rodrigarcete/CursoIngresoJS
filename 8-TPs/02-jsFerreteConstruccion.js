@@ -46,6 +46,14 @@ function Circulo ()
     let perimetro;
     let alambre;
 
+    radio = document.getElementById("txtIdRadio").value;
+
+    radio = parseFloat(radio);
+
+    perimetro = 2 * 3.14 * radio;
+    
+    alert("la cantidad de alambre nesesaria es: "+perimetro);
+
   
 
 
@@ -58,6 +66,23 @@ function Materiales ()
      para sacar el are de un rectangulo se hace : largo * ancho
      para sacar las bolsas de cemento multiplico metro cuadrado por cemento y luego cal  */
 
-
+     let largo;
+     let ancho;
+     let superficie;
+     let cemento;
+     let cal;
+ 
+     largo = document.getElementById("txtIdLargo").value;
+     ancho = document.getElementById("txtIdAncho").value;
+ 
+     largo = parseFloat(largo);
+     ancho = parseFloat(ancho);
+ 
+     superficie = largo * ancho
+ 
+     cemento = superficie / 2;
+     cal = superficie / 3;
+ 
+     alert("la cantidad de bolsas de cemento nesesarias es: "+cemento+ " la cantidad de bolsas de cal nesesarias es; "+cal);
      
 }
