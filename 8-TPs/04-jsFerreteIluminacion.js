@@ -36,27 +36,27 @@ function CalcularPrecio ()
         porcentaje = 50;
 
     }else if( cantLamp == 5) {
-        if(marca == "ArgentinaLuz") { 
+        if(marca == "ArgentinaLuz") 
         porcentaje = 40;
     }else {   
         porcentaje = 30;
     }else if (cantLamp == 4 )  {   
         if (marca == "ArgentinaLuz" || marca == "FelipecantLampa") 
             porcentaje = 25;
-     } else  {
+    }else  {
             porcentaje = 20
            
-     }else if (cantLamp == 3) {
+    }else if (cantLamp == 3) {
             porcentaje = 15;
 
-      }else if (marca == "FelipecantLampa") { 
+    }else if (marca == "FelipecantLampa") { 
                 porcentaje = 10;
-     }else {
+    }else {
             porcentaje = 5;
-     }else {
+    }else {
             porcentaje = 0;
 
-        }
+    }
 
         precioDes = precio * porcentaje / 100;
         precioFinal = precio - precioDes;
