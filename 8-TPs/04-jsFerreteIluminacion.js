@@ -44,7 +44,7 @@ function CalcularPrecio ()
         if (marca == "ArgentinaLuz" || marca == "FelipecantLampa") 
             porcentaje = 25;
     }else  {
-            porcentaje = 20
+            porcentaje = 20;
            
     }else if (cantLamp == 3) {
             porcentaje = 15;
