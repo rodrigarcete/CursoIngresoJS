@@ -1,28 +1,40 @@
 function mostrar()
 {
-	let mesDelAño;
+	let mes;
 	let mensaje;
 
-	 mesDelAño =document.getElementById("txtIdMes").value;
+	mes = document.getElementById("txtIdMes").value;
 
-	switch(mesDelAño) 
+	switch(mes)
 	{
-		case "Enero" :
-			mensaje = "que comiences bien el año !!!"
-		     break;
-		case  "Marzo" :
-			mensaje = "a clases!!!"
-			break;
-		case "Julio" :
-			mensaje = "se vienen las vacaciones!!!"
-			break;
-		case "Diciembre" :
-				mensaje = "Felices fiestas!!!"
-				break;
-		default :
-			mensaje = "Sos aburrido"
-
-		}
-
+		case "Enero":
+			mensaje = "Falta para el invierno";
+		break;
+		case "Febrero":
+			mensaje = "Falta para el invierno";
+		break;
+		case "Marzo":
+			mensaje = "Falta para el invierno";
+		break;
+		case "Abril":
+			mensaje = "Falta para el invierno";
+		break;
+		case "Mayo":
+			mensaje = "Falta para el invierno";
+		break;
+		case "Junio":
+			mensaje = "Falta para el invierno";
+		break;
+		case "Julio":
+			mensaje = "Abrigate que hace frio";
+		break;
+		case "Agosto":
+			mensaje = "Abrigate que hace frio";
+		break;
+		default:
+			mensaje = "Ya pasamos el frio, ahora calor!!!";
+		break;
+	}
+	alert(mensaje);
 
 }//FIN DE LA FUNCIÓN
