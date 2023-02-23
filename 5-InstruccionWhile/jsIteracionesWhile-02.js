@@ -30,6 +30,7 @@ function mostrar()
 
 	alert("la cantidad de numeros que se encuentran entre 10 y 20 (incluidos) es de: " + contadorDeMayores);
 
+
 	
 	
 	
