@@ -27,23 +27,47 @@ function mostrar()
     let fabricanteAlcoholBarato;
     let promedioCompra;
     let mayorTipo;
-    //
-  /*  for(let i = 0; i < 5;i++)
-    {
-       tipo = prompt('Ingrese tipo de "barbijo" , "jabon"  o "alcohol":');
-       while (tipo != "barbijo" && tipo != "jabon" && tipo != "alcohol" ) 
-       { tipo = prompt ('Tipo invalido. Ingrese tipo de "barbijo" , "jabon"  o "alcohol": ');
-       }
     
-       precio = parseFloat(prompt("Ingrese  precio $(100-300):"));
-       while( precio < 100  || precio > 300 || isNaN (precio)){  //!(precio >= 100 && precio <= 300)
-        parseInt(prompt("Error. Ingrese  precio $(100-300):"));  
-    
-       }*/
-    
-       precio = parseFloat(prompt("Ingrese  precio $(100-300):"));
-       while( precio < 100  || precio > 300 || isNaN (precio)){  //!(precio >= 100 && precio <= 300)
-        parseInt(prompt("Error. Ingrese  precio $(100-300):"));
+  
+  
+  
 
+  
+    for(let i = 0; i < 5;i++)
+  {
+   tipo = prompt("ingrese el tipo del producto")
+    while(tipo != "barbijo" && tipo != "jabon" && tipo != "alcohol")
+    {
+      tipo =prompt("error.ingrese el tipo del producto");
+    }
+   precio = prompt("ingrese el precio");
+   precio = parseInt(precio);
+   while(precio < 100 || precio > 300)
+   {
+    precio = prompt("error.ingrese un precio valido");
+    precio = parseInt(precio);
+  
+   }
+   cantidad = prompt("ingrese la cantidad");
+   cantidad = parseint(cantidad);
+   while(cantidad < 0 || cantidad > 1000)
+   {
+    cantidad = prompt("EROR.ingrese una cantidad valida")
+    cantidad = parseint(cantidad);
+  }
+  marca = prompt("ingrese la marca ");
+  fabricante = prompt("ingrese el fabricante");
+  if()
+
+
+
+
+}
     
+  
+  
+  
+  
+  
+  
 }

@@ -49,7 +49,8 @@ function mostrar()
 	let contPerrosOtitis;
 	
 
-
+//for (let index = 0; index  < 5; index++)
+ 
 
 	respuesta = "si";
 	flag = 0;
